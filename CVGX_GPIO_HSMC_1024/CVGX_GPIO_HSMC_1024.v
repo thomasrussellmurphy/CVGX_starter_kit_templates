@@ -74,18 +74,48 @@ module CVGX_GPIO_HSMC_1024(
 	//////////// GPIO, GPIO connect to GPIO Default //////////
 	GPIO,
 
-	//////////// HSMC, HSMC connect to HSMC Default //////////
-	HSMC_CLKIN_N,
-	HSMC_CLKIN_P,
-	HSMC_CLKIN0,
-	HSMC_CLKOUT_N,
-	HSMC_CLKOUT_P,
-	HSMC_CLKOUT0,
-	HSMC_D,
-	HSMC_RX_N,
-	HSMC_RX_P,
-	HSMC_TX_N,
-	HSMC_TX_P 
+	//////////// HSMC, HSMC connect to HSMC 1024-00 initial draft //////////
+	HSMC_CLKOUT0;
+	HSMC_CLKIN0;
+	UNUSED;
+	DACA_DATA1_P;
+	DACA_DATA0_P;
+	DAC_FCLKIN_P;
+	DACB_DATA0_P;
+	ADCB_DATA1_P;
+	DACB_DATA1_P;
+	ADCB_DATA0_P;
+	ADC_FCLKOUT_P;
+	ADCA_DATA0_P;
+	SYNCIN_P;
+	ADCA_DATA1_P;
+	SYNCIN_N;
+	ADCA_DATA1_N;
+	ADC_DCLKOUT_P;
+	DAC_DCLKIN_P;
+	ADC_DCLKOUT_N;
+	DAC_DCLKIN_N;
+	AFE_PDN;
+	AFE_SEN;
+	AFE_SDATA;
+	AFE_SCLK;
+	AFE_SDOUT;
+	AFE_RESET;
+	ADRF_LE;
+	ADRF_CLK;
+	ADRF_DATA;
+	ADRF_SDO;
+	TCXO_EN;
+	CDCE_PD;
+	CDCE_SYNC;
+	CDCE_MISO;
+	CDCE_MOSI;
+	CDCE_SCLK;
+	CDCE_LE;
+	CDCE_PLL_LOCK;
+	HSMC_CLKOUT2_P;
+	FPGA_REF_CLK_P;
+	HSMC_CLKOUT2_N;
 );
 
 //=======================================================
@@ -166,18 +196,48 @@ output		          		SRAM_WE_n;
 //////////// GPIO, GPIO connect to GPIO Default //////////
 inout 		    [35:0]		GPIO;
 
-//////////// HSMC, HSMC connect to HSMC Default //////////
-input 		     [2:1]		HSMC_CLKIN_N;
-input 		     [2:1]		HSMC_CLKIN_P;
-input 		          		HSMC_CLKIN0;
-output		     [2:1]		HSMC_CLKOUT_N;
-output		     [2:1]		HSMC_CLKOUT_P;
-output		          		HSMC_CLKOUT0;
-inout 		     [3:0]		HSMC_D;
-inout 		    [16:0]		HSMC_RX_N;
-inout 		    [16:0]		HSMC_RX_P;
-inout 		    [16:0]		HSMC_TX_N;
-inout 		    [16:0]		HSMC_TX_P;
+//////////// HSMC, HSMC connect to HSMC 1024-00 initial draft //////////
+output HSMC_CLKOUT0;
+input HSMC_CLKIN0;
+inout [31:0] UNUSED;
+output DACA_DATA1_P;
+output DACA_DATA0_P;
+output DAC_FCLKIN_P;
+output DACB_DATA0_P;
+input ADCB_DATA1_P;
+output DACB_DATA1_P;
+input ADCB_DATA0_P;
+input ADC_FCLKOUT_P;
+input ADCA_DATA0_P;
+output SYNCIN_P;
+input ADCA_DATA1_P;
+output SYNCIN_N;
+input ADCA_DATA1_N;
+output ADC_DCLKOUT_P;
+input DAC_DCLKIN_P;
+output ADC_DCLKOUT_N;
+input DAC_DCLKIN_N;
+output AFE_PDN;
+output AFE_SEN;
+output AFE_SDATA;
+output AFE_SCLK;
+inout AFE_SDOUT;
+output AFE_RESET;
+output ADRF_LE;
+output ADRF_CLK;
+output ADRF_DATA;
+input ADRF_SDO;
+output TCXO_EN;
+output CDCE_PD;
+output CDCE_SYNC;
+input CDCE_MISO;
+output CDCE_MOSI;
+output CDCE_SCLK;
+output CDCE_LE;
+input CDCE_PLL_LOCK;
+output HSMC_CLKOUT2_P;
+input FPGA_REF_CLK_P;
+output HSMC_CLKOUT2_N;
 
 
 //=======================================================
