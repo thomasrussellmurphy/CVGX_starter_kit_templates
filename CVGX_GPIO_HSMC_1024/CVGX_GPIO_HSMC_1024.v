@@ -71,18 +71,6 @@ module CVGX_GPIO_HSMC_1024(
 	SRAM_UB_n,
 	SRAM_WE_n,
 
-	//////////// LPDDR2 //////////
-	DDR2LP_CA,
-	DDR2LP_CK_n,
-	DDR2LP_CK_p,
-	DDR2LP_CKE,
-	DDR2LP_CS_n,
-	DDR2LP_DM,
-	DDR2LP_DQ,
-	DDR2LP_DQS_n,
-	DDR2LP_DQS_p,
-	DDR2LP_OCT_RZQ,
-
 	//////////// GPIO, GPIO connect to GPIO Default //////////
 	GPIO,
 
@@ -176,18 +164,6 @@ output		          		SRAM_LB_n;
 output		          		SRAM_OE_n;
 output		          		SRAM_UB_n;
 output		          		SRAM_WE_n;
-
-//////////// LPDDR2 //////////
-output		     [9:0]		DDR2LP_CA;
-output		          		DDR2LP_CK_n;
-output		          		DDR2LP_CK_p;
-output		     [1:0]		DDR2LP_CKE;
-output		     [1:0]		DDR2LP_CS_n;
-output		     [3:0]		DDR2LP_DM;
-inout 		    [31:0]		DDR2LP_DQ;
-inout 		     [3:0]		DDR2LP_DQS_n;
-inout 		     [3:0]		DDR2LP_DQS_p;
-input 		          		DDR2LP_OCT_RZQ;
 
 //////////// GPIO, GPIO connect to GPIO Default //////////
 inout 		    [35:0]		GPIO;
