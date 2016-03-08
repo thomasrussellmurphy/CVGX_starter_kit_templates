@@ -51,3 +51,6 @@ timing
 *rtl_netlist
 *sopc_*
 PLLJ_PLLSPE_INFO.txt
+
+# Add on Terasic-generated markup
+*.htm
