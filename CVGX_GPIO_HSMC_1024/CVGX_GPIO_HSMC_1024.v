@@ -82,8 +82,6 @@ module CVGX_GPIO_HSMC_1024(
 	HSMC_CLKOUT_P,
 	HSMC_CLKOUT0,
 	HSMC_D,
-	HSMC_GXB_RX_P,
-	HSMC_GXB_TX_P,
 	HSMC_RX_N,
 	HSMC_RX_P,
 	HSMC_TX_N,
@@ -176,8 +174,6 @@ output		     [2:1]		HSMC_CLKOUT_N;
 output		     [2:1]		HSMC_CLKOUT_P;
 output		          		HSMC_CLKOUT0;
 inout 		     [3:0]		HSMC_D;
-input 		     [3:0]		HSMC_GXB_RX_P;
-output		     [3:0]		HSMC_GXB_TX_P;
 inout 		    [16:0]		HSMC_RX_N;
 inout 		    [16:0]		HSMC_RX_P;
 inout 		    [16:0]		HSMC_TX_N;
