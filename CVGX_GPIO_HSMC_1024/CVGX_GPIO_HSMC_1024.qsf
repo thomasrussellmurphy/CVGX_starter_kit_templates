@@ -5,7 +5,7 @@
 set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CGXFC5C6F27C7
 set_global_assignment -name TOP_LEVEL_ENTITY "CVGX_GPIO_HSMC_1024"
-set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0"
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.0
 set_global_assignment -name LAST_QUARTUS_VERSION 15.0.2
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "20:42:03 MARCH 07,2016"
 set_global_assignment -name DEVICE_FILTER_PACKAGE FBGA
@@ -16,7 +16,7 @@ set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 8_H6
 # CLOCK
 #============================================================
 set_location_assignment PIN_U12 -to CLOCK_125_p
-set_instance_assignment -name IO_STANDARD "LVDS" -to CLOCK_125_p
+set_instance_assignment -name IO_STANDARD LVDS -to CLOCK_125_p
 set_location_assignment PIN_R20 -to CLOCK_50_B5B
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to CLOCK_50_B5B
 set_location_assignment PIN_N20 -to CLOCK_50_B6A
@@ -448,77 +448,77 @@ set_instance_assignment -name IO_STANDARD "2.5 V" -to UNUSED[2]
 set_location_assignment PIN_H13 -to UNUSED[3]
 set_instance_assignment -name IO_STANDARD "2.5 V" -to UNUSED[3]
 set_location_assignment PIN_E10 -to DACA_DATA1_P
-set_instance_assignment -name IO_STANDARD "LVDS" -to DACA_DATA1_P
+set_instance_assignment -name IO_STANDARD LVDS -to DACA_DATA1_P
 set_location_assignment PIN_N12 -to UNUSED[4]
 set_instance_assignment -name IO_STANDARD "2.5 V" -to UNUSED[4]
 set_location_assignment PIN_E11 -to DACA_DATA1_N
-set_instance_assignment -name IO_STANDARD "LVDS" -to DACA_DATA1_N
+set_instance_assignment -name IO_STANDARD LVDS -to DACA_DATA1_N
 set_location_assignment PIN_M12 -to UNUSED[5]
 set_instance_assignment -name IO_STANDARD "2.5 V" -to UNUSED[5]
 set_location_assignment PIN_C9 -to DACA_DATA0_P
-set_instance_assignment -name IO_STANDARD "LVDS" -to DACA_DATA0_P
+set_instance_assignment -name IO_STANDARD LVDS -to DACA_DATA0_P
 set_location_assignment PIN_M11 -to UNUSED[6]
 set_instance_assignment -name IO_STANDARD "2.5 V" -to UNUSED[6]
 set_location_assignment PIN_B9 -to DACA_DATA0_N
-set_instance_assignment -name IO_STANDARD "LVDS" -to DACA_DATA0_N
+set_instance_assignment -name IO_STANDARD LVDS -to DACA_DATA0_N
 set_location_assignment PIN_L11 -to UNUSED[7]
 set_instance_assignment -name IO_STANDARD "2.5 V" -to UNUSED[7]
 set_location_assignment PIN_D10 -to DAC_FCLKIN_P
-set_instance_assignment -name IO_STANDARD "LVDS" -to DAC_FCLKIN_P
+set_instance_assignment -name IO_STANDARD LVDS -to DAC_FCLKIN_P
 set_location_assignment PIN_H18 -to UNUSED[8]
 set_instance_assignment -name IO_STANDARD "2.5 V" -to UNUSED[8]
 set_location_assignment PIN_C10 -to DAC_FCLKIN_N
-set_instance_assignment -name IO_STANDARD "LVDS" -to DAC_FCLKIN_N
+set_instance_assignment -name IO_STANDARD LVDS -to DAC_FCLKIN_N
 set_location_assignment PIN_H17 -to UNUSED[9]
 set_instance_assignment -name IO_STANDARD "2.5 V" -to UNUSED[9]
 set_location_assignment PIN_A12 -to DACB_DATA0_P
-set_instance_assignment -name IO_STANDARD "LVDS" -to DACB_DATA0_P
+set_instance_assignment -name IO_STANDARD LVDS -to DACB_DATA0_P
 set_location_assignment PIN_L12 -to ADCB_DATA1_P
-set_instance_assignment -name IO_STANDARD "LVDS" -to ADCB_DATA1_P
+set_instance_assignment -name IO_STANDARD LVDS -to ADCB_DATA1_P
 set_location_assignment PIN_B11 -to DACB_DATA0_N
-set_instance_assignment -name IO_STANDARD "LVDS" -to DACB_DATA0_N
+set_instance_assignment -name IO_STANDARD LVDS -to DACB_DATA0_N
 set_location_assignment PIN_K11 -to ADCB_DATA1_N
-set_instance_assignment -name IO_STANDARD "LVDS" -to ADCB_DATA1_N
+set_instance_assignment -name IO_STANDARD LVDS -to ADCB_DATA1_N
 set_location_assignment PIN_B10 -to DACB_DATA1_P
-set_instance_assignment -name IO_STANDARD "LVDS" -to DACB_DATA1_P
+set_instance_assignment -name IO_STANDARD LVDS -to DACB_DATA1_P
 set_location_assignment PIN_H15 -to ADCB_DATA0_P
-set_instance_assignment -name IO_STANDARD "LVDS" -to ADCB_DATA0_P
+set_instance_assignment -name IO_STANDARD LVDS -to ADCB_DATA0_P
 set_location_assignment PIN_A11 -to DACB_DATA1_N
-set_instance_assignment -name IO_STANDARD "LVDS" -to DACB_DATA1_N
+set_instance_assignment -name IO_STANDARD LVDS -to DACB_DATA1_N
 set_location_assignment PIN_J16 -to ADCB_DATA0_N
-set_instance_assignment -name IO_STANDARD "LVDS" -to ADCB_DATA0_N
+set_instance_assignment -name IO_STANDARD LVDS -to ADCB_DATA0_N
 set_location_assignment PIN_C20 -to UNUSED[10]
 set_instance_assignment -name IO_STANDARD "2.5 V" -to UNUSED[10]
 set_location_assignment PIN_J12 -to ADC_FCLKOUT_P
-set_instance_assignment -name IO_STANDARD "LVDS" -to ADC_FCLKOUT_P
+set_instance_assignment -name IO_STANDARD LVDS -to ADC_FCLKOUT_P
 set_location_assignment PIN_B19 -to UNUSED[11]
 set_instance_assignment -name IO_STANDARD "2.5 V" -to UNUSED[11]
 set_location_assignment PIN_J11 -to ADC_FCLKOUT_N
-set_instance_assignment -name IO_STANDARD "LVDS" -to ADC_FCLKOUT_N
+set_instance_assignment -name IO_STANDARD LVDS -to ADC_FCLKOUT_N
 set_location_assignment PIN_B15 -to UNUSED[12]
 set_instance_assignment -name IO_STANDARD "2.5 V" -to UNUSED[12]
 set_location_assignment PIN_G16 -to ADCA_DATA0_P
-set_instance_assignment -name IO_STANDARD "LVDS" -to ADCA_DATA0_P
+set_instance_assignment -name IO_STANDARD LVDS -to ADCA_DATA0_P
 set_location_assignment PIN_C15 -to UNUSED[13]
 set_instance_assignment -name IO_STANDARD "2.5 V" -to UNUSED[13]
 set_location_assignment PIN_G17 -to ADCA_DATA0_N
-set_instance_assignment -name IO_STANDARD "LVDS" -to ADCA_DATA0_N
+set_instance_assignment -name IO_STANDARD LVDS -to ADCA_DATA0_N
 set_location_assignment PIN_B22 -to SYNCIN_P
-set_instance_assignment -name IO_STANDARD "LVDS" -to SYNCIN_P
+set_instance_assignment -name IO_STANDARD LVDS -to SYNCIN_P
 set_location_assignment PIN_G12 -to ADCA_DATA1_P
-set_instance_assignment -name IO_STANDARD "LVDS" -to ADCA_DATA1_P
+set_instance_assignment -name IO_STANDARD LVDS -to ADCA_DATA1_P
 set_location_assignment PIN_A21 -to SYNCIN_N
-set_instance_assignment -name IO_STANDARD "LVDS" -to SYNCIN_N
+set_instance_assignment -name IO_STANDARD LVDS -to SYNCIN_N
 set_location_assignment PIN_F12 -to ADCA_DATA1_N
-set_instance_assignment -name IO_STANDARD "LVDS" -to ADCA_DATA1_N
-set_location_assignment PIN_A19 -to ADC_DCLKOUT_P
-set_instance_assignment -name IO_STANDARD "LVDS" -to ADC_DCLKOUT_P
-set_location_assignment PIN_G15 -to DAC_DCLKIN_P
-set_instance_assignment -name IO_STANDARD "LVDS" -to DAC_DCLKIN_P
-set_location_assignment PIN_A18 -to ADC_DCLKOUT_N
-set_instance_assignment -name IO_STANDARD "LVDS" -to ADC_DCLKOUT_N
-set_location_assignment PIN_G14 -to DAC_DCLKIN_N
-set_instance_assignment -name IO_STANDARD "LVDS" -to DAC_DCLKIN_N
+set_instance_assignment -name IO_STANDARD LVDS -to ADCA_DATA1_N
+set_location_assignment PIN_A19 -to DAC_DCLKIN_P
+set_instance_assignment -name IO_STANDARD LVDS -to DAC_DCLKIN_P
+set_location_assignment PIN_G15 -to ADC_DCLKOUT_P
+set_instance_assignment -name IO_STANDARD LVDS -to ADC_DCLKOUT_P
+set_location_assignment PIN_A18 -to DAC_DCLKIN_N
+set_instance_assignment -name IO_STANDARD LVDS -to DAC_DCLKIN_N
+set_location_assignment PIN_G14 -to ADC_DCLKOUT_N
+set_instance_assignment -name IO_STANDARD LVDS -to ADC_DCLKOUT_N
 set_location_assignment PIN_C13 -to UNUSED[14]
 set_instance_assignment -name IO_STANDARD "2.5 V" -to UNUSED[14]
 set_location_assignment PIN_E18 -to AFE_PDN
@@ -594,11 +594,11 @@ set_instance_assignment -name IO_STANDARD "2.5 V" -to CDCE_PLL_LOCK
 set_location_assignment PIN_A17 -to HSMC_CLKOUT2_P
 set_instance_assignment -name IO_STANDARD "2.5 V" -to HSMC_CLKOUT2_P
 set_location_assignment PIN_L8 -to FPGA_REF_CLK_P
-set_instance_assignment -name IO_STANDARD "LVDS" -to FPGA_REF_CLK_P
+set_instance_assignment -name IO_STANDARD LVDS -to FPGA_REF_CLK_P
 set_location_assignment PIN_A16 -to HSMC_CLKOUT2_N
 set_instance_assignment -name IO_STANDARD "2.5 V" -to HSMC_CLKOUT2_N
 set_location_assignment PIN_K9 -to FPGA_REF_CLK_N
-set_instance_assignment -name IO_STANDARD "LVDS" -to FPGA_REF_CLK_N
+set_instance_assignment -name IO_STANDARD LVDS -to FPGA_REF_CLK_N
 
 #============================================================
 # End of pin assignments by Terasic System Builder
@@ -614,4 +614,11 @@ set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_global_assignment -name QIP_FILE pll/pll_50_to_125.qip
+set_global_assignment -name SIP_FILE pll/pll_50_to_125.sip
+set_global_assignment -name QIP_FILE lvds/lvds_5_rx.qip
+set_global_assignment -name QIP_FILE iobuf/sync_iobuf.qip
+set_global_assignment -name QIP_FILE lvds/lvds_5_tx.qip
+
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
