@@ -305,9 +305,9 @@ assign dac_parallel_in = adc_parallel_out;
 lvds_5_tx dac_lvds_tx (
             .tx_in ( dac_parallel_in ),
             .tx_inclock ( tx_inclock_sig ),
-            .tx_locked ( tx_locked_sig ),
+            .tx_locked ( dac_lvds_lock ),
             .tx_out ( dac_aggregate_lvds ),
-            .tx_outclock ( dac_lvds_lock )
+            .tx_outclock ( dac_lvds_clk )
           );
 
 sync_iobuf sync_buf (
